@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    background-image: url("https://cdn.wallpapersafari.com/89/32/m0dyCQ.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    border: 1px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: darkorange;
+    font-size: 2.8em;
+    text-align: center;
+}
+
+h2 {
+    color: darkorange;
+    font-size: 2.8em;
+    text-align: center;
+}
+
+strong {
+    color:darkorange;
+    width:100%;
+    font-size: 1.3em;
+}
+
+h3 {
+    color: darkorange;
+    font-size: 3em;
+    text-align: center;
+}
+
+h4 {
+    color: darkorange;
+    font-size: 3em;
+    text-align: center;
+}
+
+p  {
+    color:darkorange;
+    font-size: 1.2em;
+    text-align: center;
+    text-align-last: auto;
+}
+
+#wrapper {
+    width: 100%;
+    background-color: rgba(0, 150, 250,.5);
+    height:1800px;
+    padding: 1px;
+    margin: auto;
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        background-image: url("https://cdn.wallpapersafari.com/89/32/m0dyCQ.jpg");
+        width:100% ;
+        font-size: 1.2em;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-image: url("https://cdn.wallpapersafari.com/89/32/m0dyCQ.jpg");
+        width:100% ;
+        font-size: 1.1;
+    }
+    
+}
+
+
+@media screen and (max-width:414px) {
+    body {
+        width:100%;
+        background-image: url("https://cdn.wallpapersafari.com/89/32/m0dyCQ.jpg");
+        font-size: 1em;
+    }
+    
+}
+
